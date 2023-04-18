@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Hand {
+    public List<Card> getCards() {
+        return cards;
+    }
+
     private List<Card> cards;
 
     public Hand(){

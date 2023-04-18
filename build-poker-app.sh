@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Build artifact
+#compile build test and package artifact
 mvn clean install
 
 # Run app
